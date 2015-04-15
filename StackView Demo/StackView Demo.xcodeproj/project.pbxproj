@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690A6C401ADE9118008466A4 /* TSClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690A6C3D1ADE9118008466A4 /* TSClipView.m */; };
+		690A6C411ADE9118008466A4 /* TSStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690A6C3F1ADE9118008466A4 /* TSStackView.m */; };
 		AB4EA0A019F0677C00FD4B60 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4EA09F19F0677C00FD4B60 /* Cocoa.framework */; };
 		AB4EA0AA19F0677C00FD4B60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB4EA0A819F0677C00FD4B60 /* InfoPlist.strings */; };
 		AB4EA0AC19F0677C00FD4B60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4EA0AB19F0677C00FD4B60 /* main.m */; };
@@ -18,8 +20,6 @@
 		AB4EA0C019F0677D00FD4B60 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4EA09F19F0677C00FD4B60 /* Cocoa.framework */; };
 		AB4EA0C819F0677D00FD4B60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB4EA0C619F0677D00FD4B60 /* InfoPlist.strings */; };
 		AB4EA0CA19F0677D00FD4B60 /* StackView_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4EA0C919F0677D00FD4B60 /* StackView_DemoTests.m */; };
-		AB4EA0D719F0679B00FD4B60 /* TSClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4EA0D419F0679B00FD4B60 /* TSClipView.m */; };
-		AB4EA0D819F0679B00FD4B60 /* TSStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4EA0D619F0679B00FD4B60 /* TSStackView.m */; };
 		AB4EA0DC19F067F200FD4B60 /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4EA0DA19F067F200FD4B60 /* TSViewController.m */; };
 		AB4EA0DD19F067F200FD4B60 /* TSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB4EA0DB19F067F200FD4B60 /* TSViewController.xib */; };
 		AB4EA0E019F0694000FD4B60 /* TSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4EA0DF19F0694000FD4B60 /* TSTextView.m */; };
@@ -36,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		690A6C3C1ADE9118008466A4 /* TSClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSClipView.h; sourceTree = "<group>"; };
+		690A6C3D1ADE9118008466A4 /* TSClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSClipView.m; sourceTree = "<group>"; };
+		690A6C3E1ADE9118008466A4 /* TSStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStackView.h; sourceTree = "<group>"; };
+		690A6C3F1ADE9118008466A4 /* TSStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSStackView.m; sourceTree = "<group>"; };
 		AB4EA09C19F0677C00FD4B60 /* StackView Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StackView Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4EA09F19F0677C00FD4B60 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AB4EA0A219F0677C00FD4B60 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -55,10 +59,6 @@
 		AB4EA0C519F0677D00FD4B60 /* StackView DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StackView DemoTests-Info.plist"; sourceTree = "<group>"; };
 		AB4EA0C719F0677D00FD4B60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB4EA0C919F0677D00FD4B60 /* StackView_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackView_DemoTests.m; sourceTree = "<group>"; };
-		AB4EA0D319F0679B00FD4B60 /* TSClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSClipView.h; path = ../../TSClipView.h; sourceTree = "<group>"; };
-		AB4EA0D419F0679B00FD4B60 /* TSClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSClipView.m; path = ../../TSClipView.m; sourceTree = "<group>"; };
-		AB4EA0D519F0679B00FD4B60 /* TSStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSStackView.h; path = ../../TSStackView.h; sourceTree = "<group>"; };
-		AB4EA0D619F0679B00FD4B60 /* TSStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSStackView.m; path = ../../TSStackView.m; sourceTree = "<group>"; };
 		AB4EA0D919F067F200FD4B60 /* TSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
 		AB4EA0DA19F067F200FD4B60 /* TSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
 		AB4EA0DB19F067F200FD4B60 /* TSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSViewController.xib; sourceTree = "<group>"; };
@@ -87,6 +87,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690A6C3B1ADE9118008466A4 /* TSStackView */ = {
+			isa = PBXGroup;
+			children = (
+				690A6C3C1ADE9118008466A4 /* TSClipView.h */,
+				690A6C3D1ADE9118008466A4 /* TSClipView.m */,
+				690A6C3E1ADE9118008466A4 /* TSStackView.h */,
+				690A6C3F1ADE9118008466A4 /* TSStackView.m */,
+			);
+			name = TSStackView;
+			path = ../../TSStackView;
+			sourceTree = "<group>";
+		};
 		AB4EA09319F0677C00FD4B60 = {
 			isa = PBXGroup;
 			children = (
@@ -129,10 +141,7 @@
 		AB4EA0A519F0677C00FD4B60 /* StackView Demo */ = {
 			isa = PBXGroup;
 			children = (
-				AB4EA0D319F0679B00FD4B60 /* TSClipView.h */,
-				AB4EA0D419F0679B00FD4B60 /* TSClipView.m */,
-				AB4EA0D519F0679B00FD4B60 /* TSStackView.h */,
-				AB4EA0D619F0679B00FD4B60 /* TSStackView.m */,
+				690A6C3B1ADE9118008466A4 /* TSStackView */,
 				AB4EA0B119F0677C00FD4B60 /* AppDelegate.h */,
 				AB4EA0B219F0677C00FD4B60 /* AppDelegate.m */,
 				AB4EA0B419F0677C00FD4B60 /* MainMenu.xib */,
@@ -276,12 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB4EA0D819F0679B00FD4B60 /* TSStackView.m in Sources */,
 				AB4EA0B319F0677C00FD4B60 /* AppDelegate.m in Sources */,
 				AB4EA0E019F0694000FD4B60 /* TSTextView.m in Sources */,
 				AB4EA0AC19F0677C00FD4B60 /* main.m in Sources */,
-				AB4EA0D719F0679B00FD4B60 /* TSClipView.m in Sources */,
 				AB4EA0DC19F067F200FD4B60 /* TSViewController.m in Sources */,
+				690A6C411ADE9118008466A4 /* TSStackView.m in Sources */,
+				690A6C401ADE9118008466A4 /* TSClipView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +503,7 @@
 				AB4EA0CF19F0677D00FD4B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB4EA0D019F0677D00FD4B60 /* Build configuration list for PBXNativeTarget "StackView DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				AB4EA0D219F0677D00FD4B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
